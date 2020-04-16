@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Quiz">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:text="New Entry" />
+
+    <TextView
+        android:layout_marginTop="64dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:text="Word in English:" />
+
+    <EditText
+        android:id="@+id/englishWord"
+        android:layout_marginTop="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="wrap_content"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        tools:text="Hello" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:text="Word in Polish:" />
+
+    <EditText
+        android:id="@+id/polishWord"
+        android:layout_marginTop="4dp"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hello" />
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Save" />
+</LinearLayout>

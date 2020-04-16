@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/quizButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz" />
+
+    <Button
+        android:id="@+id/fiszkaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fiszka" />
+
+    <Button
+        android:id="@+id/addWordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New word" />
+
+    <Button
+        android:id="@+id/sentencebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sentence" />
+
+    <Button
+        android:id="@+id/pictureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pictures" />
+
+</LinearLayout>
